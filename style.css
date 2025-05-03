@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background: #f8f9fa;
+  }
+  #container {
+    max-width: 800px;
+    font-size: 24px;
+    line-height: 1.6;
+    word-wrap: break-word;
+  
+  }
+  .char {
+    padding: 2px;
+    border-radius: 4px;
+  }
+  .correct {
+    color: green;
+  }
+  .incorrect {
+    color: red;
+  }
+  .current {
+    color: blue;
+  }
